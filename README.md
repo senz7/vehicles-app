@@ -30,4 +30,32 @@ Axios (для API-запросов)
 React Leaflet + Leaflet (для карты)
 
 LocalStorage (для хранения пользовательских машин)
-# vehicles-app
+
+🚀 Установка и запуск
+
+Клонируем репозиторий:
+
+$ <git clone https://github.com/yourusername/vehicles-spa.git>
+$ <cd vehicles-spa>
+
+
+Устанавливаем зависимости:
+
+# Установка Tailwind CSS
+$ <npm install -D tailwindcss postcss autoprefixer>
+$ <npx tailwindcss init -p>
+
+# Установка axios
+$ <npm install axios --legacy-peer-deps>
+
+# Установка Leaflet и React-Leaflet
+$ <npm install react-leaflet leaflet --legacy-peer-deps>
+$ <npm install -D @types/leaflet --legacy-peer-deps>
+
+
+На Windows иногда нужно <--legacy-peer-deps> из-за peer dependencies Leaflet.
+
+Запуск приложения:
+
+$ <npm start>
+
