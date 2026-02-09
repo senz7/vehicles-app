@@ -24,12 +24,8 @@ Vehicles SPA — это SPA-приложение на React + TypeScript + Tailw
 ```$ git clone https://github.com/yourusername/vehicles-spa.git```
 ```$ cd vehicles-spa```
 
-# Устанавливаем зависимости
-```$ npm install --legacy-peer-deps```
-
 # Запуск приложения
 ```$ npm start```
-
 
 На Windows рекомендуется использовать --legacy-peer-deps, чтобы избежать конфликтов peer dependencies с Leaflet.
 
@@ -50,10 +46,7 @@ Vehicles SPA — это SPA-приложение на React + TypeScript + Tailw
   index.tsx
   ```
 
-Команды, которые использовались при создании проекта
-# Создание React + TypeScript проекта
-```$ npx create-react-app vehicles-spa --template typescript```
-
+Зависимости, которые использовались при создании проекта
 # Установка Tailwind CSS
 ```$ npm install -D tailwindcss postcss autoprefixer```
 ```$ npx tailwindcss init -p```
