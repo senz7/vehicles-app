@@ -21,14 +21,14 @@ Vehicles SPA — это SPA-приложение на React + TypeScript + Tailw
 Выполните команды в терминале (Bash/PowerShell):
 
 # Клонируем репозиторий
-$ git clone https://github.com/yourusername/vehicles-spa.git
-$ cd vehicles-spa
+```$ git clone https://github.com/yourusername/vehicles-spa.git```
+```$ cd vehicles-spa```
 
 # Устанавливаем зависимости
-$ npm install --legacy-peer-deps
+```$ npm install --legacy-peer-deps```
 
 # Запуск приложения
-$ npm start
+```$ npm start```
 
 
 На Windows рекомендуется использовать --legacy-peer-deps, чтобы избежать конфликтов peer dependencies с Leaflet.
@@ -52,21 +52,21 @@ $ npm start
 
 Команды, которые использовались при создании проекта
 # Создание React + TypeScript проекта
-$ npx create-react-app vehicles-spa --template typescript
+```$ npx create-react-app vehicles-spa --template typescript```
 
 # Установка Tailwind CSS
-$ npm install -D tailwindcss postcss autoprefixer
-$ npx tailwindcss init -p
+```$ npm install -D tailwindcss postcss autoprefixer```
+```$ npx tailwindcss init -p```
 
 # Установка axios для работы с API
-$ npm install axios --legacy-peer-deps
+```$ npm install axios --legacy-peer-deps```
 
 # Установка Leaflet и React-Leaflet для карты
-$ npm install react-leaflet leaflet --legacy-peer-deps
-$ npm install -D @types/leaflet --legacy-peer-deps
+```$ npm install react-leaflet leaflet --legacy-peer-deps```
+```$ npm install -D @types/leaflet --legacy-peer-deps```
 
 # Запуск проекта
-$ npm start
+```$ npm start```
 
 Использование приложения
 
