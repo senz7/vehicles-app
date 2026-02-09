@@ -25,9 +25,10 @@ Vehicles SPA — это SPA-приложение на React + TypeScript + Tailw
 ```$ cd vehicles-spa```
 
 # Запуск приложения
+
 ```$ npm start```
 
-На Windows рекомендуется использовать --legacy-peer-deps, чтобы избежать конфликтов peer dependencies с Leaflet.
+
 
 Структура проекта
 ```src/
@@ -60,9 +61,10 @@ Vehicles SPA — это SPA-приложение на React + TypeScript + Tailw
 
 ```$ npm install -D @types/leaflet --legacy-peer-deps```
 
+На Windows рекомендуется использовать --legacy-peer-deps из-за конфликтов peer dependencies с Leaflet.
+
 # Запуск проекта
 ```$ npm start```
-На Windows рекомендуется использовать --legacy-peer-deps из-за конфликтов peer dependencies с Leaflet.
 
 Использование приложения
 
