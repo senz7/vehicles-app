@@ -34,7 +34,7 @@ $ npm start
 На Windows рекомендуется использовать --legacy-peer-deps, чтобы избежать конфликтов peer dependencies с Leaflet.
 
 Структура проекта
-src/
+```src/
   api/
     vehicles.ts        # запросы к API
   components/
@@ -48,6 +48,7 @@ src/
     car.ts             # тип Car
   App.tsx
   index.tsx
+  ```
 
 Команды, которые использовались при создании проекта
 # Создание React + TypeScript проекта
